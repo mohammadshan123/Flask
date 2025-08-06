@@ -1,5 +1,5 @@
 #STEP 1. Importing Required Libraries
-import numpy as nps
+import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
 
@@ -42,3 +42,4 @@ def predict():
 if __name__ == "__main__":#This ensures that the script runs only when executed directly, not when imported as a module in another script.
 
     flask_app.run(debug=True)  #Automatic reloading of the server on code changes
+
